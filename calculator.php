@@ -40,7 +40,9 @@ if ($number or $numo or $numt or $method == NULL) { //stops calculator function 
 
 //php -S localhost:8000 -t .
 
-}?> 
+//}
+
+?> 
 
 </body>
 </html>
