@@ -4,7 +4,7 @@
       <h2>Louis' Tools.</h2>
       <a href="index.php">Home.</a>
       <a>|</a>
-      <a href="Gallery.html">Art & 3D.</a>
+      <a href="gallery.php">Art & 3D.</a>
       <a>|</a>
       <a href="tools.php">Tools.</a>
    </div>
