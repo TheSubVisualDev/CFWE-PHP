@@ -1,31 +1,33 @@
 <html>
-
+<head>
+	<?php include 'menu.php';?>
+</head>
 <body>
-
+	<h1> Calculator result: </h1>
 <?php
 	function calculate($x, $y, $type) { //invokes function creation, $x base | $y modifier | $type method ( * - + / )
 		switch ($type) { //replaces neccesity for use of a if..elseif..else block.
 			case "add":
 			$z = $x + $y; //performs logic
-			echo "$x added to $y equals $z"; //frontend response
+			echo "<p>$x added to $y equals $z</h3>"; //frontend response
 			return $z; //returns for any future need or use
 			break;
 
 			case "subtract":
 			$z = $x - $y; //performs logic
-			echo "$x take away $y equals $z"; //frontend response
+			echo "<p>$x take away $y equals $z</h3>"; //frontend response
 			return $z; //returns for any future need or use
 			break;
 
 			case "multiply":
 			$z = $x * $y; //performs logic
-			echo "$x multiplied by $y equals $z"; //frontend response
+			echo "<p>$x multiplied by $y equals $z</h3>"; //frontend response
 			return $z; //returns for any future need or use
 			break;
 
 			case "divide":
 			$z = $x / $y; //performs logic
-			echo "$x divided by $y equals $z"; //frontend response
+			echo "<p>$x divided by $y equals $z</h3>"; //frontend response
 			return $z; //returns for any future need or use
 
 			break;
@@ -46,5 +48,4 @@ $number = calculate($_POST["numo"] , $_POST["numt"] , $_POST["method"]); //invok
 <?php include 'sta_foot.php';?>
 </body>
 </html>
-
 

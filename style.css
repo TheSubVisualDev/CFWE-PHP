@@ -28,8 +28,12 @@
   padding-top: 102px;
 }
 
+form {
+  color: #ddd;
+}
+
 body {
-  background-color: #fff;
+  background-color: #333;
   height: 100%;
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 0;
@@ -38,13 +42,16 @@ body, html {
  height: 100% 
 }
 
+h1 {
+    color: #60a571;
+}
 
 p {
-   color: #333;
+   color: #ddd;
 }
 
 a {
-    color: #f2d45c;
+    color: #60a571;
     font-family: 'Quattrocento Sans', sans-serif;
     margin: 0;
     font-style: italic;
@@ -52,28 +59,35 @@ a {
 
 a:link {
     text-decoration: none;
-    color: #f2d45c;
+    color: #60a571;
 }
 
 a:visited {
     text-decoration: none;
-    color: #f2d45c;
+    color: #60a571;
 }
 
 a:hover {
     text-decoration: none;
-    color: #f2d45c;
+    color: #60a571;
 }
 
 a:active {
     text-decoration: none;
-    color: #f2d45c;
+    color: #60a571;
 }
 
 h2 {
   margin: 0;
   font-style: italic;
-  color: #f2d45c;
+  color: #60a571;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+h3 {
+  margin: 0;
+  font-style: italic;
+  color: #60a571;
   font-family: 'Quattrocento Sans', sans-serif;
 }
 
