@@ -9,13 +9,13 @@ Cool things are planned for this project, including but not limited to;
 -Project briefs from Jon.
 -Old .py projects rewritten in Php for web based deployment (Thus becoming compatable on practically all devices)
 
-1. Projects from Jon
+Projects from Jon
 ------
 
   * Become Familiar with Php
 
 
-2. Old .py Projects -> Php
+Old .py Projects -> Php
 ------
 
   * 'Take the Initiative' - 0/1
