@@ -12,11 +12,11 @@
 
      <?php
 
-    $csv = str_getcsv(file_get_contents('artEmbeds.csv'));
-    foreach ($csv as $value) {
-        $x = $value;
-        $y = str_replace('"',"",$x);
-        echo "$y<br>";
+    $csv = str_getcsv(file_get_contents('artEmbeds.csv')); //Reads the file and converts the content into an array, stores to $csv
+    foreach ($csv as $value) { //Iterate over [i,v] of $csv, follow through with value
+        $x = $value; //creating a surrogate
+        $y = str_replace('"',"",$x); //removes unneccesary speech marks, attaches appended iframe to surrogate #2.
+        echo "$y<br>"; //posts the embed equal to $y
     }
 
      ?>

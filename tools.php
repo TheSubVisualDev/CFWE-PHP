@@ -2,27 +2,21 @@
 <html>
 <head>
 	<?php include 'menu.php';?>
-	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
 
 </head>
 <body>
 	<h3>Tools compendium</h3><br>
 
 	<?php 
-	$dir    = 'Tools';
-	$toolsArray = scandir($dir, 1);
-	array_pop($toolsArray);
-	array_pop($toolsArray);
-	array_pop($toolsArray);
-	foreach ($toolsArray as $value) {
-    echo "<a href='/tools/$value'>$value </p>";
-}
+	$dir = 'Tools'; // 'Tools' refers to the folder in the server architecture, at /CFWE-PHP/Tools
+	$toolsArray = scandir($dir, 1); //Scans the directory and turns the names of each file into plaintext.
+	for ($i = 0; $i < 3; $i++) { //Sets variable $i as 0, and for as long as i is less than 3, iterate x by 1 and then run through code.
+		array_pop($toolsArray); //Removes the last [i,v] pair from an array, needs to be done thrice because of 2 invisible portals an .DS_Stores
+	}
+	foreach ($toolsArray as $value) { //For each Value of toolsArray, iterating over index.
+    echo "<a href='/tools/$value'>$value </p>"; //Posts the HTML into pipeline, creates a link which links to the correct tool file.
+
+	}
 	?>
 
 
