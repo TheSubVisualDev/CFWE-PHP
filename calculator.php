@@ -1,4 +1,5 @@
 <html>
+
 <body>
 
 <?php
@@ -33,16 +34,16 @@
 
 $number = calculate($_POST["numo"] , $_POST["numt"] , $_POST["method"]); //invokes function
 
-if ($number == NULL) { //stops calculator function if mistakes made with entering operators or if function returns an invalid number
-	echo "invalid return value";
+//if ($number or $numo or $numt or $method == NULL) { //stops calculator function if mistakes made with entering operators or if function returns an invalid number
+//	echo "invalid return value";
 
 
 //php -S localhost:8000 -t .
 
-}
-
+//}
 ?> 
 
+<?php include 'sta_foot.php';?>
 </body>
 </html>
 
