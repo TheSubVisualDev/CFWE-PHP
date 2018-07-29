@@ -7,6 +7,8 @@
 
 </head>
 <body>
+    <div class="parallaxother"></div>
+
 	<br>
 	<h3>3D assets.</h3><br>
 
