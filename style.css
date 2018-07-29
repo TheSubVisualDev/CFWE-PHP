@@ -1,0 +1,126 @@
+/* CSS files add styling rules to your content */
+
+#content
+{
+    min-width:700px;
+    margin-left:10px;
+    overflow:hidden;
+    background-color:AppWorkspace;
+}
+
+.header {
+  padding: 16px 16px;
+  background: #222;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+form {
+  color: #ddd;
+}
+
+body {
+  background-color: #333;
+  height: 100%;
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 0;
+}
+body, html {
+ height: 100% 
+}
+
+h1 {
+    color: #60a571;
+}
+
+p {
+   color: #ddd;
+}
+
+a {
+    color: #60a571;
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin: 0;
+    font-style: italic;
+}
+
+a:link {
+    text-decoration: none;
+    color: #60a571;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #60a571;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #60a571;
+}
+
+a:active {
+    text-decoration: none;
+    color: #60a571;
+}
+
+h2 {
+  margin: 0;
+  font-style: italic;
+  color: #60a571;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+h3 {
+  margin: 0;
+  font-style: italic;
+  color: #60a571;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('d20.png');
+
+    /* Full height */
+    height: 65%; 
+
+    /* Create the parallax scrolling effect */
+    /*position: relative;*/
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.parallaxother {
+    /* The image used */
+    background-image: url('d20.png');
+
+    /* Full height */
+    height: 20%; 
+
+    /* Create the parallax scrolling effect */
+    /*position: relative;*/
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}

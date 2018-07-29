@@ -12,11 +12,13 @@ Cool things are planned for this project, including but not limited to;
 Projects from Jon
 ------
 
-..* Become Familiar with Php
+  * Become (startingly) versed in Php  - COMPLETE ✓
+  * Become adequetely versed in Php - 0/1
+  * TBC.
 
 
 Old .py Projects -> Php
 ------
 
-..* 'Take the Initiative' - 0/1
-..* Ma' Name is... - 0/1
+  * 'Take the Initiative' - 0/1
+  * Ma' Name is... - 0/1
