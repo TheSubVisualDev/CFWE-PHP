@@ -1,5 +1,9 @@
 <html>
 <head>
+	<title>Louis' Tools</title>
+     <link rel="icon" 
+      type="image/png" 
+      href="d20.jpg">
 	<div class="header" id="myHeader">
       <h2>Louis' Tools.</h2>
       <a href="index.php">Home.</a>

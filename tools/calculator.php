@@ -21,7 +21,7 @@
 		Number1: <input type="text" name="numo"><br> <!-- 'numo' will be called as $numo in 'calculator.php' and is derived as global when moving to that instance -->
 		Number2: <input type="text" name="numt"><br> <!-- 'type="text"' determines the type of box presented on frontend, does NOT determine variables in the slightest -->
 		Method: <input type="text" name="method">
-		<input type="submit"> <!-- 'This is the little 'Submit' button at the bottom of every form. -->
+		<br> Under maintainance! <!-- 'This is the little 'Submit' button at the bottom of every form. -->
 	</form>
 
 	<?php include '../sta_foot.php';?> <!-- adds footer with custom php scripted content to the bottom of the page. -->
