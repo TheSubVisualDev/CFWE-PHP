@@ -13,7 +13,7 @@ Projects from Jon
 ------
 
   * Become (startingly) versed in Php  - COMPLETE ✓
-  * Become adequetely versed in Php - 0/1
+  * Become adequetely versed in Php - COMPLETE ✓
   * TBC.
 
 
@@ -21,4 +21,4 @@ Old .py Projects -> Php
 ------
 
   * 'Take the Initiative' - 0/1
-  * Ma' Name is... - 0/1
+  * Ma' Name is... - COMPLETE ✓
