@@ -99,7 +99,7 @@ h3 {
     height: 55%; 
 
     /* Create the parallax scrolling effect */
-    /*position: relative;*/
+    position: relative;
     opacity: 1;
     background-attachment: fixed;
     background-position: center;
