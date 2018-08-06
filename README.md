@@ -14,7 +14,7 @@ Projects from Jon
 
   * Become (startingly) versed in Php  - COMPLETE ✓
   * Become adequetely versed in Php - COMPLETE ✓
-  * TBC.
+  * SMART - COMPLETE ✓
 
 
 Old .py Projects -> Php
