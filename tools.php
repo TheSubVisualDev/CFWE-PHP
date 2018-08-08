@@ -7,7 +7,9 @@
 <body>
     <div class="parallaxother"></div>
 
-	<h3>Tools compendium</h3><br>
+	<div class="parallaxother">
+	    	
+	    </div><div class='header'><h2>Tools compendium</h2></div><br>
 
 	<?php 
 	$dir = 'tools'; // 'Tools' refers to the folder in the server architecture, at /CFWE-PHP/Tools

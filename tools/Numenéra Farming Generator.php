@@ -4,11 +4,13 @@
 	<?php include '../menutools.php';?>
 </head>
 <body>
-	<h1>Louis Testbed Website - 'Numenéra Farming Generator'</h1>
+	    <div class="parallaxother">
+	    	
+	    </div><div class='header'><h2>Louis Testbed Website - 'Numenéra Farming Generator'</h2></div>
 	<p>Due to the fact that the players of my Numenéra Campaign have severely derailed it, I am having to create this calculator / generator in order to generate Yields per season for their newly aquired cotton farm.</p><br>
 
 	<form action="" method='post'>
-		How many Square KM of farmland do you have: <input type="text" name="plotsize"><br>
+		How many Square KM of farmland do you have: <input type="number" min="1" step="1" value="<?php echo $_POST['plotsize'];?>" name="plotsize"><br>
 		What crop type are you growing: <select name='crop'>
 			<?php $cropsdisp = ['cotton','corn','coffee'];
 				foreach ($cropsdisp as $value) {
@@ -23,8 +25,9 @@
 				}
 			?>
 		</select>
+		<br><br><input type="submit">
+		<br>
 	    <?php require'../farminggen.php'; ?>
-	    <input type="submit">
 	</form>
 	<div>
 

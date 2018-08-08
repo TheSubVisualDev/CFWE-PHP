@@ -12,7 +12,9 @@
 
 </head>
 <body>
-	<h1>Louis Testbed Website - Basic Numeric Calculator</h1>
+	<div class="parallaxother">
+	    	
+	</div><div class='header'><h2>Louis Testbed Website - Basic Numeric Calculator</h2></div>
 	<p>Basic, first project made with php.</p>
 	
 	<p><i>please note that for 'Method', the only accepted methods are 'add', 'subtract', 'multiply' and 'divide'. (case sensitive)</i></p><br>
