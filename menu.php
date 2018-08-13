@@ -18,7 +18,6 @@
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css">
     <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
 </head>
 </html>
 

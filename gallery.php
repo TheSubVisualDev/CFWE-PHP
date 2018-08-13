@@ -9,8 +9,7 @@
 <body>
     <div class="parallaxother"></div>
 
-	<br>
-	<h3>3D assets.</h3><br>
+	<div class='header'><h2>Gallery</h2></div><br>
 
      <?php
 
