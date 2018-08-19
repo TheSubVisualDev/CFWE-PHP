@@ -56,7 +56,7 @@ echo "<br>This season you produced $produce kg of $crop<br>";
 function getprofit($produce, $crop){
 	switch ($produce) {
 		case ($crop == 'cotton'):
-			$profit = $produce * 10;
+			$profit = $produce * 12;
 			return $profit;
 			break;
 		case ($crop == 'corn'):

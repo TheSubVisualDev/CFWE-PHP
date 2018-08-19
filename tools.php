@@ -19,7 +19,7 @@
 	}
 	foreach ($toolsArray as $value) { //For each Value of toolsArray, iterating over index.
 		$trim = rtrim($value, ".php"); //Removes '.php' from frontend display.
-    	echo "<a style='padding: 16px 16px; href='/tools/$value'>$trim</a><br><br>"; //Posts the HTML into pipeline, creates a link which links to the correct tool file.
+    	echo "<a style='padding: 16px 16px;' href='/tools/$value'>$trim</a><br><br>"; //Posts the HTML into pipeline, creates a link which links to the correct tool file.
 
 	}
 	?>
